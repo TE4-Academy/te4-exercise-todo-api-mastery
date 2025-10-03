@@ -178,9 +178,9 @@ curl http://localhost:3000/ping
 2. ✅ Rätt URL? (`http://localhost:3000/ping`)
 3. ✅ Stavfel i koden? (kolla `app.get('/ping', ...)`)
 
-### **Windows-specifikt:**
+### **Powershell:**
 
-Om curl inte finns i CMD, använd PowerShell:
+Prova att använda PowerShell:
 
 ```powershell
 Invoke-RestMethod -Uri http://localhost:3000/ping
@@ -188,7 +188,7 @@ Invoke-RestMethod -Uri http://localhost:3000/ping
 
 ### **Lyckat?** ✅
 
-**Skriv ner:** Vad hände? Vad returnerade servern? Hur kändes det?
+**Skriv ner:** Vad hände? Vad returnerade servern? 
 
 ---
 
@@ -220,7 +220,7 @@ Invoke-RestMethod -Uri http://localhost:3000/ping
 
 ### **Nu ska du:**
 
-Lägg till ett nytt endpoint `POST /echo` som:
+Lägg till en ny endpoint `POST /echo` som:
 
 - Tar emot JSON i body
 - Skickar tillbaka samma data
